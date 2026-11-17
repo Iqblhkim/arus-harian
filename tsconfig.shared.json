@@ -1,0 +1,1 @@
+{"compilerOptions":{"lib":["ES2022"],"types":[]},"exclude":["src/shared/**/*.test.ts"],"extends":"./tsconfig.json","include":["src/shared"]}
