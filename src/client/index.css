@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Arus Harian — water theme extras. */
+
+@keyframes orb-bob {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.orb {
+  animation: orb-bob 0.6s ease-in-out infinite;
+}
+
+@keyframes cell-pop {
+  0% {
+    transform: scale(0.92);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cell-pop {
+  animation: cell-pop 0.15s ease-out;
+}
